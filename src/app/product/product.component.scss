@@ -4,6 +4,15 @@
     align-items: center;
     flex-direction: row;
     margin: 10vh 0vh;
+    .text {
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // flex-direction: column;
+        ul li {
+            margin: 16px 0px;
+        }
+    }
     img {
         max-height: 40vh;
     }

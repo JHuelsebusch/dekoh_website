@@ -1,10 +1,35 @@
-body {
-    margin: 0;
+@font-face {
+    font-family: 'roboto';
+    src: url(./assets/font/Roboto/Roboto-Regular.ttf);
+    font-family: 'roboto-bold';
+    src: url(./assets/font/Roboto/Roboto-Bold.ttf);
+    font-family: 'roboto-black';
+    src: url(./assets/font/Roboto/Roboto-Black.ttf);
 }
 
 :root {
     --textcolor: #ffffff;
     --accentcolor: #F0AA2F;
+    --font-size: 20px;
+}
+
+body {
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+    font-size: var(--font-size)
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .btn {
@@ -18,6 +43,7 @@ body {
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    font-size: var(--font-size);
     .border {
         position: absolute;
         border: 2px solid var(--accentcolor);
