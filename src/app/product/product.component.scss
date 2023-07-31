@@ -1,0 +1,10 @@
+.product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 10vh 0vh;
+    img {
+        max-height: 40vh;
+    }
+}
