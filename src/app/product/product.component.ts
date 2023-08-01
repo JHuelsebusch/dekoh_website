@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ShopUrlService } from '../shop-url.service';
 
 @Component({
   selector: 'app-product',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./product.component.scss']
 })
 export class ProductComponent {
+  constructor(public sus:ShopUrlService) {}
 
 }

@@ -7,6 +7,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { ProductComponent } from './product/product.component';
 import { LnkComponent } from './lnk/lnk.component';
 import { StartComponent } from './start/start.component';
+import { FooterComponent } from './footer/footer.component';
+import { ShopUrlService } from './shop-url.service';
 
 @NgModule({
   declarations: [
@@ -14,13 +16,14 @@ import { StartComponent } from './start/start.component';
     WelcomeComponent,
     ProductComponent,
     LnkComponent,
-    StartComponent
+    StartComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ShopUrlService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
