@@ -9,6 +9,7 @@ import { LnkComponent } from './lnk/lnk.component';
 import { StartComponent } from './start/start.component';
 import { FooterComponent } from './footer/footer.component';
 import { ShopUrlService } from './shop-url.service';
+import { ImprintComponent } from './imprint/imprint.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ShopUrlService } from './shop-url.service';
     ProductComponent,
     LnkComponent,
     StartComponent,
-    FooterComponent
+    FooterComponent,
+    ImprintComponent
   ],
   imports: [
     BrowserModule,
