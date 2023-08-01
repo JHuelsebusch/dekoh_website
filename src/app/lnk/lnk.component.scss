@@ -1,0 +1,50 @@
+.link {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./../../assets/img/beads_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 60%;
+        background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    }
+    .title {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        img {
+            max-height: 25vh;
+        }
+    }
+    .linkList {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        max-width: 80%;
+        a {
+            width: 100%;
+            .btn_small {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+                img {
+                    max-height: 20vh;
+                }
+            }
+        }
+    }
+}

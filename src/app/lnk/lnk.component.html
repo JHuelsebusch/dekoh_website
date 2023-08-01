@@ -1,1 +1,18 @@
-<p>lnk works!</p>
+<section class="link">
+    <div class="overlay">
+    </div>
+    <div class="title">
+        <img src="./../../assets/img/logo.png" alt="">
+        <h1>DekOh!</h1>
+
+    </div>
+    <div class="linkList">
+
+        <a href="{{link.url}}" *ngFor="let link of links">
+            <button class="btn_small">
+                <!-- <img src="./../../assets/img/{{link.pic}}" alt=""> -->
+                <span>{{link.title}}</span>
+            </button>
+        </a>
+    </div>
+</section>
