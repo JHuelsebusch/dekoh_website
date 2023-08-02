@@ -4,6 +4,10 @@
     <div class="title">
         <img src="./../../assets/img/logo.png" alt="">
         <h1>DekOh!</h1>
+        <div class="socialMedia">
+            <a href="{{media.link}}" *ngFor="let media of socialMedia">
+                <img src="./../../assets/icons/{{media.icon}}" alt=""></a>
+        </div>
 
     </div>
     <div class="linkList">
