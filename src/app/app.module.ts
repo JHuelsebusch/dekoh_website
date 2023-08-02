@@ -10,6 +10,7 @@ import { StartComponent } from './start/start.component';
 import { FooterComponent } from './footer/footer.component';
 import { ShopUrlService } from './shop-url.service';
 import { ImprintComponent } from './imprint/imprint.component';
+import { PrivacyComponent } from './privacy/privacy.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ImprintComponent } from './imprint/imprint.component';
     LnkComponent,
     StartComponent,
     FooterComponent,
-    ImprintComponent
+    ImprintComponent,
+    PrivacyComponent
   ],
   imports: [
     BrowserModule,
