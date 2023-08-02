@@ -7,7 +7,7 @@ import { ShopUrlService } from '../shop-url.service';
   styleUrls: ['./welcome.component.scss']
 })
 export class WelcomeComponent {
-  constructor(public sus: ShopUrlService) {
+  constructor(public _sus: ShopUrlService) {
 
   }
 }

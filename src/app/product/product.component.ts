@@ -7,6 +7,6 @@ import { ShopUrlService } from '../shop-url.service';
   styleUrls: ['./product.component.scss']
 })
 export class ProductComponent {
-  constructor(public sus:ShopUrlService) {}
+  constructor(public _sus:ShopUrlService) {}
 
 }
