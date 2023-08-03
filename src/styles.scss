@@ -98,6 +98,19 @@ a {
             align-self: center;
             max-height: 25vh;
         }
+        .legalTitle {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            img {
+                height: 32px;
+                transform: rotate(180deg);
+                background-color: #ffffff5e;
+                border-radius: 100%;
+                padding: 16px;
+                cursor: pointer;
+            }
+        }
     }
 }
 
