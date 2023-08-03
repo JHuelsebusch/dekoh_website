@@ -14,7 +14,7 @@
 
         <a href="{{link.url}}" *ngFor="let link of links">
             <button class="btn_small">
-                <!-- <img src="./../../assets/img/{{link.pic}}" alt=""> -->
+                <img src="./../../assets/img/{{link.pic}}" alt="" *ngIf="link.pic">
                 <span>{{link.title}}</span>
             </button>
         </a>

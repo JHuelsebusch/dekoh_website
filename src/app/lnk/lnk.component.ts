@@ -16,7 +16,7 @@ links = [{
 },{
   title: 'DekOh! Website',
   url: 'https://dekoh.de',
-  pic: 'dekoh_02.jpg'
+  pic: 'logo_dekoh.jpg'
 }, {
   title: 'Impressum',
   url: 'https://dekoh.de/imprint'

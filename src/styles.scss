@@ -35,28 +35,6 @@ a {
     text-decoration: none;
 }
 
-.btn_small {
-    position: relative;
-    width: 100%;
-    padding: 20px;
-    // border: 2px solid var(--accentcolor);
-    border: none;
-    background-color: var(--accentcolor);
-    // background-color: #ffffff;
-    transition: all 225ms ease-in-out;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    // font-weight: bold;
-    font-size: var(--font-size);
-    box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    &:hover {
-        filter: brightness(1.2);
-    }
-}
-
 .btn {
     position: relative;
     padding: 20px;
@@ -133,22 +111,22 @@ a {
 }
 
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 5px;
 }
 
 //   / Track /
 ::-webkit-scrollbar-track {
     border-radius: 10px;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.8);
 }
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4));
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.4));
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.8));
 }
 
 .socialMedia {
