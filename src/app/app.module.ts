@@ -12,6 +12,7 @@ import { ShopUrlService } from './shop-url.service';
 import { ImprintComponent } from './imprint/imprint.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { ContactComponent } from './contact/contact.component';
+import { FollowUsComponent } from './follow-us/follow-us.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ContactComponent } from './contact/contact.component';
     FooterComponent,
     ImprintComponent,
     PrivacyComponent,
-    ContactComponent
+    ContactComponent,
+    FollowUsComponent
   ],
   imports: [
     BrowserModule,

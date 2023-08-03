@@ -10,11 +10,30 @@
         // justify-content: center;
         // align-items: center;
         // flex-direction: column;
-        ul li {
-            margin: 16px 0px;
-        }
     }
     img {
         max-height: 40vh;
+    }
+}
+
+ul li {
+    margin: 16px 0px;
+}
+
+.usageBg {
+    background-color: rgb(241, 241, 241);
+    padding: var(--mc);
+    .usage {
+        padding: var(--pp);
+        // width: 100%;
+        // box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        gap: 50px;
+        img {
+            width: clamp(250px, 60%, 600px);
+        }
     }
 }
