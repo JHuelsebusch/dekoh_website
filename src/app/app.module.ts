@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ShopUrlService } from './shop-url.service';
 import { ImprintComponent } from './imprint/imprint.component';
 import { PrivacyComponent } from './privacy/privacy.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PrivacyComponent } from './privacy/privacy.component';
     StartComponent,
     FooterComponent,
     ImprintComponent,
-    PrivacyComponent
+    PrivacyComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

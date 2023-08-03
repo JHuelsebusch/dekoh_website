@@ -1,9 +1,10 @@
 .product {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    margin: 10vh 0vh;
+    margin: var(--mc);
+    padding: var(--pp);
     .text {
         // display: flex;
         // justify-content: center;
