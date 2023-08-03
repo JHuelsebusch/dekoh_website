@@ -5,12 +5,6 @@
     flex-direction: row;
     margin: var(--mc);
     padding: var(--pp);
-    .text {
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
-        // flex-direction: column;
-    }
     img {
         max-height: 40vh;
     }
@@ -34,6 +28,8 @@ ul li {
         gap: 50px;
         img {
             width: clamp(250px, 60%, 600px);
+            border-radius: 20px;
+            box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.5);
         }
     }
 }

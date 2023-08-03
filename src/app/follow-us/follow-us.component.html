@@ -12,9 +12,14 @@
             <p>auf Facebook und Instagram und verpasse keine Updates!</p>
             <p>Entdecke mit uns kreative Ideen, Produktneuheiten, exklusive Angebote und vieles mehr.<br>
             </p>
+            <div class="socialMedia">
+                <a href="{{media.link}}" *ngFor="let media of socialMedia">
+                    <img src="./../../assets/icons/{{media.icon}}" alt="" class="sMIcons"></a>
+            </div>
         </div>
-
-        <img src="./../../assets/img/beads_1.png" alt="">
+        <div class="pic">
+            <img src="./../../assets/img/{{image}}" alt="">
+        </div>
 
     </div>
 </section>
