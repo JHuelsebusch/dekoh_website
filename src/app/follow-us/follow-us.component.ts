@@ -10,7 +10,7 @@ export class FollowUsComponent implements OnInit {
   constructor(public _sms:SocialmediaService){}
   socialMedia:any= [];
   images: string[] = ['beads_1.png','beads_2.png','beads_3.png','beads_4.png','beads_5.png',];
-currentImage:number = 1;
+currentImage:number = 0;
 image:string ='beads_1.png';
 
 ngOnInit(): void {
@@ -23,11 +23,15 @@ let index = this.socialMedia.findIndex((obj: { icon: string; }) =>obj.icon == 'm
 this.socialMedia.splice(index,1);
 }
 changeImage(){
-  setInterval(() => {this.count();}, 5000)
+  setInterval(() => {this.count();}, 8000)
 }
 count(){
-  // if(this.c)
+  
   this.currentImage = this.currentImage+1;
+  console.log(this.currentImage); 
+  if(this.currentImage == this.images.length){
+    this.currentImage = this.currentImage % this.images.length;
+  }
   console.log(this.currentImage)
   this.image = this.images[this.currentImage];
 }
