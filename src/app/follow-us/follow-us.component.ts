@@ -26,14 +26,10 @@ changeImage(){
   setInterval(() => {this.count();}, 8000)
 }
 count(){
-  
   this.currentImage = this.currentImage+1;
-  console.log(this.currentImage); 
   if(this.currentImage == this.images.length){
     this.currentImage = this.currentImage % this.images.length;
   }
-  console.log(this.currentImage)
   this.image = this.images[this.currentImage];
 }
-
 }
