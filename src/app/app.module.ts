@@ -13,6 +13,7 @@ import { ImprintComponent } from './imprint/imprint.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { ContactComponent } from './contact/contact.component';
 import { FollowUsComponent } from './follow-us/follow-us.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,7 @@ import { FollowUsComponent } from './follow-us/follow-us.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [ShopUrlService],
+  providers: [ShopUrlService, {provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
