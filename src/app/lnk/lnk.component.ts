@@ -19,11 +19,11 @@ links = [{
   pic: 'logo_dekoh.jpg'
 }, {
   title: 'Impressum',
-  url: 'https://dekoh.de/imprint'
+  url: 'https://dekoh.de/#/imprint'
 
 }, {
   title: 'Datenschutzerklärung',
-url: 'https://dekoh.de/privacy',}
+url: 'https://dekoh.de/#/privacy',}
   
 ];
 

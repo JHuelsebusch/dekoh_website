@@ -14,6 +14,6 @@ export class SocialmediaService {
     link: 'https://www.facebook.com/profile.php?id=100095104699877'
   },{
     icon: 'mail.png',
-    link: 'mailto:mail@hdekoh.de'
+    link: 'mailto:mail@dekoh.de'
   }]
 }
