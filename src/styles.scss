@@ -18,20 +18,20 @@
 
 @media (max-width:800px) {
      :root {
-        --font-size: 12px;
+        --font-size: 16px;
         --mp: 0vh 10vw;
         --mc: 50px 10vw;
         --pp: 0vh 5vw;
     }
-    h1 {
-        font-size: 24px !important;
-    }
-    h2 {
-        font-size: 16px !important;
-    }
-    h3 {
-        font-size: var(--font-size);
-    }
+    // h1 {
+    //     font-size: 24px !important;
+    // }
+    // h2 {
+    //     font-size: 16px !important;
+    // }
+    // h3 {
+    //     font-size: var(--font-size);
+    // }
 }
 
 body {

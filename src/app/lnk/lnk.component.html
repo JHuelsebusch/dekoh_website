@@ -1,22 +1,25 @@
-<section class="link">
+<section class="linkSec">
     <div class="overlay">
     </div>
-    <div class="title">
-        <img src="./../../assets/img/logo.png" alt="">
-        <h1>DekOh!</h1>
-        <div class="socialMedia">
-            <a href="{{media.link}}" *ngFor="let media of _sms.socialMedia">
-                <img src="./../../assets/icons/{{media.icon}}" alt=""></a>
+    <div class="link">
+
+        <div class="title">
+            <img src="./../../assets/img/logo.png" alt="">
+            <h1>DekOh!</h1>
+            <div class="socialMedia">
+                <a href="{{media.link}}" *ngFor="let media of _sms.socialMedia">
+                    <img src="./../../assets/icons/{{media.icon}}" alt=""></a>
+            </div>
+
         </div>
+        <div class="linkList">
 
-    </div>
-    <div class="linkList">
-
-        <a href="{{link.url}}" *ngFor="let link of links">
-            <button class="btn_small">
+            <a href="{{link.url}}" *ngFor="let link of links">
+                <button class="btn_small">
                 <img src="./../../assets/img/{{link.pic}}" alt="" *ngIf="link.pic">
                 <span>{{link.title}}</span>
             </button>
-        </a>
+            </a>
+        </div>
     </div>
 </section>
