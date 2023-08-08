@@ -9,7 +9,10 @@ const routes: Routes = [
   {path: '', component: StartComponent},
   {path: 'lnk', component: LnkComponent},
   {path: 'imprint', component: ImprintComponent},
-  {path: 'privacy', component: PrivacyComponent}
+  {path: 'privacy', component: PrivacyComponent},
+  // {path: '/', redirectTo: 'lnk'},
+  // {path: '/*path', component: LnkComponent},
+  // {path: '/**', component: LnkComponent}
 ];
 
 @NgModule({
