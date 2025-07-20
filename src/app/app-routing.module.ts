@@ -12,7 +12,7 @@ const routes: Routes = [
   {path: 'privacy', component: PrivacyComponent},
   // {path: '/', redirectTo: 'lnk'},
   // {path: '/*path', component: LnkComponent},
-  {path: '**', redirectTo: '/#/lnk'}
+  // {path: '**', redirectTo: '/#/lnk'}
 ];
 
 @NgModule({
