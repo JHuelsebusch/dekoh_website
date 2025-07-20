@@ -11,7 +11,7 @@ export class LnkComponent {
   constructor(public _sms: SocialmediaService, public _sus: ShopUrlService) {}
 
 links = [{
-  title: 'Unsere Wasserperlen bei Amazon.de',
+  title: 'Unsere Wasserperlen im Tiktok Shop!',
   url:  this._sus.tiktokshopLink,
   pic: 'dekoh_02.jpg'
 },{
